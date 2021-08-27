@@ -1,6 +1,10 @@
-# API YaTube
+# REST API YaTube
 ## Описание
 Польза проекта в том, что он дает пользоваться функционалом приложения не посещая сайт.
+
+## Стек технологий.
+Python 3.9.4, Django 3.2, Django REST Framework, SQLite3, Simple JWT, Django Filter.
+
 ## Реализован функционал дающий возможность:
 - Подписываться на пользователя.
 - Просматривать, создавать новые, удалять и изменять посты.
@@ -23,9 +27,9 @@
 
 `<pip install -r requirements.txt>`
 
-Создание и применение миграций:
+Применяем мигррации:
 
-`<python manage.py makemigrations>` и `<python manage.py migrate>`
+`<python manage.py migrate>`
 
 Запускаем django сервер:
 
